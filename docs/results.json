@@ -1,0 +1,133 @@
+{
+  "secret_bytes": 18,
+  "subsets": [
+    {
+      "threshold": 2,
+      "shares": 3,
+      "subsets_tested": 3,
+      "subsets_ok": 3,
+      "success": 1.0,
+      "distinct_secrets_from_below_threshold": 0
+    },
+    {
+      "threshold": 3,
+      "shares": 5,
+      "subsets_tested": 10,
+      "subsets_ok": 10,
+      "success": 1.0,
+      "distinct_secrets_from_below_threshold": 0
+    },
+    {
+      "threshold": 5,
+      "shares": 9,
+      "subsets_tested": 126,
+      "subsets_ok": 126,
+      "success": 1.0,
+      "distinct_secrets_from_below_threshold": 0
+    }
+  ],
+  "below_threshold": [
+    {
+      "holding": 1,
+      "trials": 96,
+      "distinct": 96
+    },
+    {
+      "holding": 2,
+      "trials": 96,
+      "distinct": 96
+    },
+    {
+      "holding": 4,
+      "trials": 96,
+      "distinct": 96
+    }
+  ],
+  "sizes": [
+    {
+      "secret_bytes": 16,
+      "threshold": 2,
+      "shares": 4,
+      "share_bytes": 17,
+      "total_share_bytes": 68,
+      "expansion": 4.25,
+      "combinations": 6
+    },
+    {
+      "secret_bytes": 16,
+      "threshold": 3,
+      "shares": 5,
+      "share_bytes": 17,
+      "total_share_bytes": 85,
+      "expansion": 5.3125,
+      "combinations": 10
+    },
+    {
+      "secret_bytes": 16,
+      "threshold": 5,
+      "shares": 7,
+      "share_bytes": 17,
+      "total_share_bytes": 119,
+      "expansion": 7.4375,
+      "combinations": 21
+    },
+    {
+      "secret_bytes": 32,
+      "threshold": 2,
+      "shares": 4,
+      "share_bytes": 33,
+      "total_share_bytes": 132,
+      "expansion": 4.125,
+      "combinations": 6
+    },
+    {
+      "secret_bytes": 32,
+      "threshold": 3,
+      "shares": 5,
+      "share_bytes": 33,
+      "total_share_bytes": 165,
+      "expansion": 5.15625,
+      "combinations": 10
+    },
+    {
+      "secret_bytes": 32,
+      "threshold": 5,
+      "shares": 7,
+      "share_bytes": 33,
+      "total_share_bytes": 231,
+      "expansion": 7.21875,
+      "combinations": 21
+    },
+    {
+      "secret_bytes": 64,
+      "threshold": 2,
+      "shares": 4,
+      "share_bytes": 65,
+      "total_share_bytes": 260,
+      "expansion": 4.0625,
+      "combinations": 6
+    },
+    {
+      "secret_bytes": 64,
+      "threshold": 3,
+      "shares": 5,
+      "share_bytes": 65,
+      "total_share_bytes": 325,
+      "expansion": 5.078125,
+      "combinations": 10
+    },
+    {
+      "secret_bytes": 64,
+      "threshold": 5,
+      "shares": 7,
+      "share_bytes": 65,
+      "total_share_bytes": 455,
+      "expansion": 7.109375,
+      "combinations": 21
+    }
+  ],
+  "sample_share": {
+    "x": 1,
+    "payload": "8ab3b7dec1a5a8358e26590c7357568feb29"
+  }
+}
